@@ -1,13 +1,13 @@
 import java.util.Calendar;
 import java.util.Date;
 
-public class DateTester extends CalendarCalc
+public class UnitTester
 {
 	public static void main(String[] args)
 	{
-		CalendarCalc cc = new CalendarCalc();
+		final DateCalculator cc = new DateCalculator();
 
-		Calendar cal = Calendar.getInstance();
+		final Calendar cal = Calendar.getInstance();
 		Date d;
 		int month = 0;
 		int day = 0;
