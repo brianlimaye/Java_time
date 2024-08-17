@@ -7,6 +7,7 @@ public class UnitTester
 	{
 		final DateCalculator cc = new DateCalculator();
 
+		//Chris is good at golf
 		final Calendar cal = Calendar.getInstance();
 		Date d;
 		int month = 0;
